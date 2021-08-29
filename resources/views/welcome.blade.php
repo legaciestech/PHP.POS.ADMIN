@@ -12,7 +12,7 @@
         <!-- Styles -->
         
         <!-- CSS only -->
-<link href="../css/bootstrap.min.css" rel="stylesheet" >
+<link href="../css/bootstrap.min.css" rel="stylesheet"  >
 <!-- JavaScript Bundle with Popper -->
 
 
