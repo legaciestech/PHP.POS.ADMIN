@@ -4,7 +4,12 @@
   <head>
     <meta charset="UTF-8">
     <title> Drop Down Sidebar Menu | CodingLab </title>
-    
+    <style>
+      .btn-sistema-naranja{
+		    background-color: #F0AC3F;
+		    color: white;
+	    }
+    </style>
     <!-- Boxiocns CDN Link -->
     <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
      <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,6 +17,7 @@
      <link href="../css/bootstrap.min.css" rel="stylesheet"   >
      <link href="../css/layout.css" rel="stylesheet">
      <script src="../js/general/layout.js"></script>
+     
    </head>
 <body>
   <div class="sidebar close">
@@ -70,7 +76,7 @@
           <li><a href="#">Relacionar rol a usuario</a></li>
         </ul>
       </li>
-      <li>
+      <!-- <li>
         <a href="#">
           <i class='bx bx-pie-chart-alt-2' ></i>
           <span class="link_name">Analytics</span>
@@ -78,8 +84,8 @@
         <ul class="sub-menu blank">
           <li><a class="link_name" href="#">Analytics</a></li>
         </ul>
-      </li>
-      <li>
+      </li> -->
+      <!-- <li>
         <a href="#">
           <i class='bx bx-line-chart' ></i>
           <span class="link_name">Chart</span>
@@ -87,8 +93,8 @@
         <ul class="sub-menu blank">
           <li><a class="link_name" href="#">Chart</a></li>
         </ul>
-      </li>
-      <li>
+      </li> -->
+      <!-- <li>
         <div class="iocn-link">
           <a href="#">
             <i class='bx bx-plug' ></i>
@@ -102,8 +108,8 @@
           <li><a href="#">Pigments</a></li>
           <li><a href="#">Box Icons</a></li>
         </ul>
-      </li>
-      <li>
+      </li> -->
+      <!-- <li>
         <a href="#">
           <i class='bx bx-compass' ></i>
           <span class="link_name">Explore</span>
@@ -111,17 +117,17 @@
         <ul class="sub-menu blank">
           <li><a class="link_name" href="#">Explore</a></li>
         </ul>
-      </li>
-      <li>
+      </li>-->
+      <li> 
         <a href="#">
           <i class='bx bx-history'></i>
-          <span class="link_name">History</span>
+          <span class="link_name">Historial</span>
         </a>
         <ul class="sub-menu blank">
-          <li><a class="link_name" href="#">History</a></li>
+          <li><a class="link_name" href="#">Historial</a></li>
         </ul>
       </li>
-      <li>
+      <!-- <li>
         <a href="#">
           <i class='bx bx-cog' ></i>
           <span class="link_name">Setting</span>
@@ -129,8 +135,8 @@
         <ul class="sub-menu blank">
           <li><a class="link_name" href="#">Setting</a></li>
         </ul>
-      </li>
-      <li>
+      </li> -->
+      <!-- <li>
     <div class="profile-details">
       <div class="profile-content">
         <img src="image/profile.jpg" alt="profileImg">
@@ -140,7 +146,7 @@
         <div class="job">Web Desginer</div>
       </div>
       <i class='bx bx-log-out' ></i>
-    </div>
+    </div> -->
   
   </div>
   

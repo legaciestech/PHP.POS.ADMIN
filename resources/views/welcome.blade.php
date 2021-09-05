@@ -8,7 +8,7 @@
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;600&display=swap" rel="stylesheet">
-
+        <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
         <!-- Styles -->
         
         <!-- CSS only  pruene-->
@@ -25,6 +25,10 @@
         user-select: none;
         
       }
+
+      .custom-control-label:before{
+  background-color:red;
+}
 
       @media (min-width: 768px) {
         .bd-placeholder-img-lg {
@@ -77,37 +81,42 @@
 					  <label for="floatingInput">Correo electrónico</label>
 					</div>
 					
-					<div class="form-floating mb-3">
-					  <input type="password" class="form-control border border-top-0 border-end-0 border-start-0 border border-3 border-warning" id="txtCorreoElectonico" placeholder="password">
+					<div class="  form-floating mb-3">
+					  <input type="password" class="form-control border border-top-0 border-end-0 border-start-0 border border-3 border-warning" id="txtContrasenna" placeholder="password">
 					  <label for="floatingInput">Contraseña</label>
+            
+           
 					</div>
+
+          
+          
 					<div class="row mb-4">
 					<div class="col d-flex justify-content-center">
 					  <!-- Checkbox -->
 					  <div class="form-check">
-						<input	
-						  class="form-check-input"
-						  type="checkbox"
-						  value=""
-						  id="form1Example3"
-						  checked
-						/>
-						<label class="form-check-label" for="form1Example3"> Recordarme </label>
+						<input  class="form-check-input custom-control-label " type="checkbox"  value="" id="form1Example3"/>
+						<label class="form-check-label" for="form1Example3"> Mostrar contraseña </label>
 					  </div>
+
+            
+					</div>
+          <div class="col d-flex justify-content-center">
+					  <!-- Checkbox -->
+					  <a href="#!">¿Olvidó su contraseña?</a>
+
+            
 					</div>
 
-					<div class="col">
-					  <!-- Simple link -->
-					  <a href="#!">¿Olvidó su contraseña?</a>
-					</div>
+					
 		
 				</div>
-	  
+
+        
 	  
 				</div>
 				
 				<div class="row">
-				<div class="col d-flex justify-content-center"">
+				<div class="col d-flex justify-content-center">
 					<button  class="btn btn-sistema-naranja btn-lg btn-block">Iniciar sesión</button>
 				</div>
 	  
