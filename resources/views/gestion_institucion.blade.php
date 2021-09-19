@@ -6,18 +6,31 @@
 		    background-color: #F0AC3F;
 		    color: white;
 	    }
+        .container-sistema{
+            background-color: #f9f9f9;
+        }
+        .container-color{
+            background-color: #FFFFFF;
+        }
     </style>
-    <section class="container-fluid">
-        <div class="home-content"></div>
-        <div class="form-group">
-            <br>
-            <ul class="breadcrumb">
-                <li><a href="/Catalogos">  <h6 class="text-uppercase">Institución  </h6></a></li>
-                <li>  <h6 class="text-uppercase"> / </h6></a></li>
-                <li class="active text-uppercase"><h6> Nueva</h6> </li>
+    <section class="container-fluid container-sistema">
+    <br>
+    <div class="container-sm">
+        <p class="text-center   fs-3 ">Gestion Institución</p>
+        <ul class="breadcrumb">
+                <li><a href="/Catalogos">  <h6 class="">Institución  </h6></a></li>
+                <li>  <h6 class="text-uppercase"> . </h6></a></li>
+                <li class="active "><h6> Nueva</h6> </li>
             </ul>
-            <p class="text-center   fs-3 ">Gestion Institución</p>
-            <div class="row mb-3">
+            
+    </div>
+            
+        <div class="container-sm container-color" style="overflow-y: auto;">
+        <br>
+        <div class="home-content"></div>
+        <div class="form-group container-sm">
+        <br>
+            <div class="row mb-3 container-sm">
                 <div class="form-group col-xl-6 ">
                     <label for="txt_cedula_persona_juridica">Cédula de persona juríduca</label>
                     <input type="text" class="form-control border-warning" id="txt_cedula_persona_juridica" placeholder="Cédula de persona juríduca" data-bs-toggle="tooltip" data-bs-placement="top" title="Cédula de persona jurídica">
@@ -27,7 +40,7 @@
                     <input type="text" class="form-control border-warning" id="txt_razon_social" placeholder="Razón social">
                 </div>
             </div>
-            <div class="row mb-3">
+            <div class="row mb-3 container-sm">
                 <div class="form-group col-xl-6 ">
                     <label for="txt_nombre">Nombre</label>
                     <input type="text" class="form-control border-warning" id="txt_nombre" placeholder="Nombre">
@@ -37,7 +50,7 @@
                     <textarea class="form-control border-warning" id="txt_descripción" placeholder="Descripción" rows="3"></textarea>
                 </div>
             </div>
-            <div class="row mb-3">
+            <div class="row mb-3 container-sm">
                 <div class="form-group col-xl-6 ">
                     <label for="txt_siglas">Siglas</label>
                     <input type="text" class="form-control border-warning" id="txt_siglas" placeholder="Siglas" data-bs-toggle="tooltip" data-bs-placement="top" title="Cédula de persona jurídica">
@@ -47,7 +60,7 @@
                     <input type="text" class="form-control border-warning" id="txt_url_sitio_web" placeholder="URL sitio web">
                 </div>
             </div>
-            <div class="row mb-3">
+            <div class="row mb-3 container-sm">
                 <div class="form-group col-xl-6 ">
                     <label for="cbx_pais">País</label>
                     <select class=" form-control border-warning" id="cbx_pais" data-show-subtext="true" data-live-search="true">
@@ -73,7 +86,7 @@
                     </select>
                 </div>
             </div>
-            <div class="row mb-3">
+            <div class="row mb-3 container-sm">
                 <div class="form-group col-xl-6 ">
                     <label for="cbx_canton">Cantón</label>
                     <select class=" form-control border-warning" id="cbx_canton" data-show-subtext="true" data-live-search="true">
@@ -100,7 +113,7 @@
                 </div>
             </div>
 
-            <div class="row mb-3">
+            <div class="row mb-3 container-sm">
                 <div class="form-group col-xl-6 ">
                     <label for="cbx_barrio">Barrio</label>
                     <select class=" form-control border-warning" id="cbx_barrio" data-show-subtext="true" data-live-search="true">
@@ -119,7 +132,7 @@
                 </div>
             </div>
 
-            <div class="row mb-3">
+            <div class="row mb-3 container-sm">
                 <div class="form-group col-xl-6 ">
                     <label for="txt_numero_oficina">Número de oficina</label>
                     <div class="input-group ">
@@ -142,7 +155,7 @@
                 </div>
             </div>
             <br>
-            <div class="d-grid gap-2 d-md-flex justify-content-md-end mx-auto">
+            <div class="d-grid gap-2 d-md-flex justify-content-md-end mx-auto container-sm">
                 <button class="btn btn-sistema-naranja  me-md-2 " type="button"> <i class='bx bx-save'></i> Guardar</button>
                 <button class="btn  btn-sistema-naranja" type="button"> <i class='bx bx-left-arrow-circle'></i>  Atras</button>
             </div>
@@ -150,5 +163,6 @@
         </div>
         <br>
         <br>
+    </div>
     </section>
 @endsection

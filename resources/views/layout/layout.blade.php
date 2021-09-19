@@ -185,7 +185,7 @@
 
                                 <br />
 								
-                                <span id="spanNombre Usuario" class="text-white" >Último sesion | 1994-06-01 00:45:00</span>
+                                <span id="spanNombre Usuario" class="text-white" >Último sesión | 1994-06-01 00:45:00</span>
 										</a>
                                 
 
